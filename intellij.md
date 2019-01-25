@@ -32,7 +32,7 @@ The first time in this window, the JDK needs to be setup. This is done with the 
 
 ### TMC in IntelliJ
 
-After installing, you will be presented with the TMC login. Login with your  login information. Then select the right organization (2017_avans_ti_breda), and pick the subject. Make sure this is set up in the settings properly
+After installing, you will be presented with the TMC login. Login with your  login information. Then select the right organization (Haagse Hogeschool), and pick the subject. Make sure this is set up in the settings properly
 ![tmc](images/intellij_tmc.png)
 
 After you're logged in you can download the TMC exercises through the TMC menu, by clicking "Download current course's ALL exercises". After downloading, open the TMC exercise list, doubleclick an exercise and you're ready to go. You can find the sourcecode to work on in the project's "src" folder.
