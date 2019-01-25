@@ -18,8 +18,6 @@ title: Week 2
 ---
 {% include week02/5-Debugger.md %}
 ---
-{% include week02/6-Methods.md %}
----
 
 
 
