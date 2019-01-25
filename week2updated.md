@@ -2,11 +2,11 @@
 layout: default
 title: Week 2
 ---
+{% include_relative /licence.md %}
+---
 {% include week01/08-Conditional-Statements.md %}
 ---
 {% include week01/09-Changing-Variables.md %}
----
-{% include_relative /licence.md %}
 ---
 {% include week02/1-Loops.md %}
 ---
