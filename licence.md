@@ -7,4 +7,4 @@ Authors: Arto Hellas, Matti Luukkainen
 Translators to English: Emilia Hjelm, Alex H. Virtanen, Matti Luukkainen, Virpi Sumu, Birunthan Mohanathas, Etiënne Goossens  
 Extra material added by: Etiënne Goossens, Maurice Snoeren, Johan Talboom
 
-The course is maintained by [Technische Informatica Breda](http://www.avans.nl/opleidingen/opleidingzoeker/technische-informatica-breda-voltijd-bachelor/introductie)
+The course is maintained by [De Haagse Hogeschool](http://www.hhs.nl)
