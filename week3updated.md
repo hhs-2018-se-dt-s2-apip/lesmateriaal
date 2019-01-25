@@ -16,8 +16,6 @@ title: Week 3
 ---
 {% include week03/2-Strings.md %}
 ---
-{% include week06/02-Arrays.md %}
----
 
 
 end of week 3
