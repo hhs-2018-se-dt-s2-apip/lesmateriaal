@@ -1,4 +1,5 @@
-## 2.2 Assignment operations
+<!-- 2 was 2.2 -->
+### 2.2.3 Assignment operations
 
 Because changing the value of a variable is a very common operation, Java has special assignment operations for it.
 

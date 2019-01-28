@@ -9,15 +9,10 @@ title: Week 1
 {% include week01/03-Programming-Environment.md %}
 ---
 {% include week01/04-Variables-and-Assignments.md %}
----
 {% include week01/05-Calculation.md %}
----
 {% include week01/09-Changing-Variables.md %}
----
-{% include week02/2-Assignment-Operations-Loops.md %}
----
+{% include week02/2-Assignment-Operations.md %}
 {% include week01/06-Strings.md %}
----
 {% include week01/07-User-Input.md %}
 ---
 end of week 1

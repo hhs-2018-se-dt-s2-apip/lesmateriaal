@@ -1,4 +1,5 @@
-## 7. Reading User Input
+<!-- 2.4 was 7 -->
+### 2.4 Reading User Input
 
 So far our programs have been rather one-sided. Next we will learn how to read *input* from the user. We will use a special `Scanner` tool to read the user input.
 
@@ -16,7 +17,7 @@ public class ProgramBody {
 }
 ```
 
-### 7.1 Reading a string
+#### 2.4.1 Reading a string
 
 ```java
 System.out.print("What is your name? ");
@@ -57,7 +58,7 @@ Hi John
 Process finished with exit code 0
 ```
 
-### 7.2 Reading integers
+#### 2.4.2 Reading integers
 
 Our Scanner tool is not good for reading integers, so we will use another special tool to read an integer. The command `Integer.parseInt` converts the string given to it into an integer. The command's parameter is given between brackets and it returns an integer that can be assigned to an integer variable.
 
@@ -91,7 +92,7 @@ public class NameAndAgeGreeting {
 }
 ```
 
-### 7.3 Summary
+### 2.5 Summary
 
 The program body for interaction with the user is as follows:
 

@@ -1,4 +1,5 @@
-## 6. Concatenation or combining strings
+<!-- 2.3 was 6 -->
+### 2.3 Concatenation or combining strings
 
 Let us take a closer look on combining strings with the + operator.
 
