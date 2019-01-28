@@ -1,4 +1,5 @@
-## 2.9 Call stack
+<!-- 5.7 was 2.9 -->
+## 5.7 Call stack
 
 When methods call each other, they form what is called a *calls stack*. This is a list of methods, where each method has been called by the entry over it in the list. The call stack in IntelliJ is shown when the application is paused in the debugger. Concider the following program
 

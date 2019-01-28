@@ -1,4 +1,5 @@
-## 2.7. Self-written methods
+<!-- 5.1 was 2.7 -->
+## 5.1 Self-written methods
 
 This far we have been using a programming style where code is written (and read and executed) from top to bottom.
 
@@ -97,7 +98,7 @@ From now on when we introduce methods, we will not point out that they need to b
 {% include week02/exercise/017.md %}
 {: .exercises }
 
-### 2.7.1 Method parameters
+### 5.2.1 Method parameters
 
 We can make our methods more useful by giving it *parameters*! Parameters are variables that we define inside brackets in the first line, just after the method name. When the method is called, the parameters are assigned values.
 
@@ -143,7 +144,7 @@ Hi John 24 years, greetings from the world of methods!
 
 In both cases the method has only one parameter. The value for the parameter is calculated before calling the method. In the first case the parameter value comes from the String concatenation (a cool word that means putting the text together) `name1 + " " + name2`. The value for the concatenation is *Anne Green*. In the second case we get the parameter value from the String concatenation `"John " + age + " years"`.
 
-### 2.7.2 Many parameters
+### 5.2.2 Many parameters
 
 A method can be defined to have more than one parameter. In this case, the parameters are always listed in the same order.
 
@@ -168,7 +169,7 @@ Hi Matt, greetings from Alabama
 Hi Matt, greetings from Alabama from Nevada
 ```
 
-### 2.7.3 Method calling another method
+### 5.2.3 Method calling another method
 
 Methods can also be called outside of main. Methods can call each other! Let us create a method greetManyTimes that greets the user many times getting assistance from the method `greet`:
 

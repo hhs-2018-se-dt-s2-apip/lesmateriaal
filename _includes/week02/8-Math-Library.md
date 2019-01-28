@@ -1,4 +1,5 @@
-## 2.8 Math Library
+<!-- 5.5 was 2.8 -->
+## 5.5 Math Library
 
 A lot of functionality can be implemented by now, using the basic code stuctures that we've encountered so far. We could for example, write a method to determine the [absolute value](https://en.wikipedia.org/wiki/Absolute_value) of a number. The code for such a method could be as follows
 
