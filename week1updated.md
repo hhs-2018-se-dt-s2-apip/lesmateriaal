@@ -6,14 +6,13 @@ title: Week 1
 ---
 {% include week01/01-Program-and-Sourcecode.md %}
 {% include week01/02-Main-Program-Body.md %}
----
 {% include week01/03-Programming-Environment.md %}
 ---
 {% include week01/04-Variables-and-Assignments.md %}
 ---
-{% include week01/09-Changing-Variables.md %}
----
 {% include week01/05-Calculation.md %}
+---
+{% include week01/09-Changing-Variables.md %}
 ---
 {% include week02/2-Assignment-Operations-Loops.md %}
 ---

@@ -1,4 +1,5 @@
-## 5. Calculation
+<!-- 2.2 was 5 -->
+### 2.2 Calculation
 
 The calculation operations are pretty straightforward: +, -, * and /. A more peculiar operation is the modulo operation %, which calculates the remainder of a division. The order of operations is also pretty straightforward: the operations are calculated from left to right taking the parentheses into account.
 
@@ -37,7 +38,7 @@ System.out.println(first + second);
 System.out.println(2 + second - first - second);
 ```
 
-### 5.1 Floating point numbers (decimal numbers)
+#### 2.2.1 Floating point numbers (decimal numbers)
 
 Calculating the division and remainder of whole numbers is a little trickier. A floating point number (decimal number) and integer (whole number) often get mixed up. If all the variables in a calculation operation are integers, the end result will also be an integer.
 

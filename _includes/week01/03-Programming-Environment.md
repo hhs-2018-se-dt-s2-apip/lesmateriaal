@@ -1,4 +1,5 @@
-## 3. Getting to know your development environment
+<!-- 1.7 was 3 -->
+### 1.7 Getting to know your development environment
 
 Programming these days takes place in development environments almost without exceptions. The development environment provides several tools and features to assist the programmer. Although the development environment does not write the program on behalf of the programmer, it contains several handy features such as hinting about mistakes in code and assisting the programmer to visualize the structure of the program.
 

@@ -1,4 +1,5 @@
-## 9. Changing variables
+<!-- 2.2.2 was 9 -->
+#### 2.2.2 Changing variables
 
 We usually want to change the value of an existing variable. This can be done using the normal assignment statement. In the next example, we increase the value of the variable `age` by one:
 

@@ -1,6 +1,7 @@
-## 4. Variables and assignment
+<!-- 2 was 4 -->
+## 2. Variables and assignment
 
-### 4.1 Variables and data types
+### 2.1 Variables and data types
 
 A *variable* is one of the most important concepts in computer programming. A variable should be imagined as a box in which you can store information. The information stored in a variable always has a type. These types include text (String), whole numbers (int), decimal numbers (double), and truth values (boolean). A value can be assigned to a variable using the equals sign (=).
 
@@ -48,7 +49,7 @@ The variable's type is integer. Its value is 123
 The variable's type is integer. Its value is 42
 ```
 
-### 4.2 Variable data types are immutable
+### 2.2 Variable data types are immutable
 
 When a variable is declared with a data type, it cannot be changed later. For example, a text variable cannot be changed into an integer variable and it cannot be assigned integer values.
 
@@ -67,7 +68,7 @@ decimalNumber = 1; // Works! :)
 {% include week01/exercise/004.md %}
 {: .exercises }
 
-### 4.3 Allowed and descriptive variable names
+### 2.3 Allowed and descriptive variable names
 
 There are certain limitations on the naming of our variables. Even though umlauts, for example, can be used, it is better to avoid them, because problems might arise with [character encoding](http://en.wikipedia.org/wiki/Character_encoding). For example, it is recommended to use A instead of Ä.
 
@@ -93,13 +94,13 @@ int camelCase = 5; // Not allowed, the variable camelCase is already defined!
 
 It is strongly recommended to name variables so that their purpose can be understood without comments and without thinking. Variable names used in this course **must** be descriptive.
 
-#### 4.3.1 Valid variable names
+#### 2.3.1 Valid variable names
 
 * lastDay = 20
 * firstYear = 1952
 * name = "Matti"
 
-#### 4.3.2 Invalid variable names
+#### 2.3.2 Invalid variable names
 
 * last day of the month = 20
 * 1day = 1952
