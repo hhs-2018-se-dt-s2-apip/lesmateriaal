@@ -1,4 +1,5 @@
-## 16. Object
+<!-- 6.5 was 16 -->
+## 6.5 Object
 
 Strings and integers have some differences. Integers are "just values", they can be used in calculations and they can be printed on the screen:
 
