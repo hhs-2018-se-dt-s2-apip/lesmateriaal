@@ -1,4 +1,5 @@
-## 8. Conditional statements and truth values
+<!-- 3 was 8 -->
+## 3. Conditional statements and truth values
 
 So far, our programs have progressed from one command to another in a straightforward manner. In order for the program to *branch* to different execution paths based on e.g. user input, we need conditional statements.
 
@@ -80,13 +81,13 @@ if (isLesser) {
 1 is less than 3!
 ```
 
-### 8.1 Code indentation
+### 3.1 Code indentation
 
 Note that the commands in the block following the if statement (i.e. the lines after the curly brace, { ) are not written at the same level as the if statement itself. They should be **indented** slightly to the right. Indentation happens when you press the tab key, which is located to the left of q key. When the block ends with the closing curly brace, indentation ends as well. The closing curly brace } should be on the same level as the original `if` statement.
 
 The use of indentation is crucial for the readability of program code. During this course and generally everywhere, you are expected to indent the code properly. IntelliJ helps with the correct indentation. You can easily indent your program by pressing shift, alt, and f simultaneously. It's also possible to select a whole section of code, and press tab to indent this whole section
 
-### 8.2 else
+### 3.2 Else
 
 If the truth value of the comparison is false, another optional block can be executed using the `else` command.
 
@@ -109,7 +110,7 @@ Your number is equal to or less than five!
 {% include week01/exercise/016.md %}
 {: .exercises }
 
-### 8.3 else if
+### 3.3 Else if
 
 If there are more than two conditions for the program to check, it is recommended to use the `else if` command. It works like the `else` command, but with an additional condition. `else if` comes after the `if` command. There can be multiple `else if` commands.
 
@@ -133,7 +134,7 @@ The number is three!
 
 Let us read out loud the example above: If number is one, print out "The number is one.". Otherwise if the number is two, print out "The number is two.". Otherwise if the number is three, print out "The number is three!". Otherwise print out "Quite a lot!".
 
-### 8.4 Comparing strings
+### 3.4 Comparing strings
 
 Strings cannot be compared using the equality operator (==). For string comparison, we use the `equals`. command, which is always associated with the string to compare.
 
@@ -166,7 +167,7 @@ When comparing strings, it is crucial to make sure that both string variables ha
 {% include week01/exercise/018.md %}
 {: .exercises }
 
-### 8.5 Logical operations
+### 3.5 Logical operations
 
 The condition statements can be made more complicated using logical operations. The logical operations are:
 
