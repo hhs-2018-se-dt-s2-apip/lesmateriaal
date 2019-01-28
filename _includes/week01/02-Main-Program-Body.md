@@ -1,4 +1,5 @@
 [//]: # (Original value was 2.)
+<!-- A test -->
 ## 1.6 Main program body
 
 The body for a program named "Example" is as follows:
