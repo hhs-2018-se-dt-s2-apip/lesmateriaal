@@ -84,10 +84,9 @@ System.out.println("Thanks, bye!");
 {% include week02/exercise/001.md %}
 {% include week02/exercise/002.md %}
 {% include week02/exercise/003.md %}
-{% include week02/exercise/004.md %}
 {: .exercises }
 
-## 2.1.1 while conditions
+## 2.1.1 While conditions
 
 The `running` variable is not the only way to end a loop. A common structure for a loop is `while (condition)`, where the condition can be **any statement with a truth value**. This means that the condition works exactly like conditions in an `if` statements.
 

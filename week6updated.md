@@ -4,8 +4,6 @@ title: Week 6
 ---
 {% include_relative /licence.md %}
 ---
-{% include week03/3-Object.md %}
----
 {% include week03/5-Truth-Values.md %}
 ---
 {% include week03/6-Bit-Operators.md %}

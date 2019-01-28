@@ -153,7 +153,7 @@ Now, printing works regardless of the amount of items in the list.
 
 Using a while loop, and "self indexing" the locations in the list, is usually not the best way to go through a list. A much more recommended way is to use the for-each loop described below.
 
-### 3.4.3 for-each
+### 3.4.3 For-each
 
 Even though the command is usually referred to as for-each, the real name of the command is only `for`. There are two versions of for, the traditional and the "for-each". The latter is used now.
 

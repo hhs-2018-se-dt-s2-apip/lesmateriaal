@@ -12,6 +12,8 @@ title: Week 1
 ---
 {% include week01/04-Variables-and-Assignments.md %}
 ---
+{% include week01/09-Changing-Variables.md %}
+---
 {% include week01/05-Calculation.md %}
 ---
 {% include week01/06-Strings.md %}

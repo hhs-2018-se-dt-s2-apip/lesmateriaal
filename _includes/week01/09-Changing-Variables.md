@@ -37,4 +37,5 @@ System.out.println(length);  // prints 24
 ```
 
 {% include week01/exercise/022.md %}
+{% include week02/exercise/004.md %}
 {: .exercises }
