@@ -16,6 +16,8 @@ title: Week 1
 ---
 {% include week01/05-Calculation.md %}
 ---
+{% include week02/2-Assignment-Operations-Loops.md %}
+---
 {% include week01/06-Strings.md %}
 ---
 {% include week01/07-User-Input.md %}

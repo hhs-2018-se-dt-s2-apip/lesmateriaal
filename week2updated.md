@@ -8,7 +8,7 @@ title: Week 2
 ---
 {% include week02/1-Loops.md %}
 ---
-{% include week02/2-Assignment-Operations.md %}
+{% include week02/2-Assignment-Operations-Loops.md %}
 ---
 {% include week02/3-Changing-Flow.md %}
 ---
