@@ -1,4 +1,5 @@
-## 2.2 Assignment operations in loops
+<!-- 4.2 was 2.2 -->
+## 4.2 Assignment operations in loops
 
 Often during a loop, the value of a variable is calculated based on repetition. The following program calculates 3*4 somewhat clumsily as the sum 3+3+3+3:
 

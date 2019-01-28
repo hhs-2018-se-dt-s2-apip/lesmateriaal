@@ -89,7 +89,7 @@ System.out.println("Thanks, bye!");
 
 ### 4.1 While loops
 
-## 4.1.1 While conditions
+#### 4.1.1 While conditions
 
 The `running` variable is not the only way to end a loop. A common structure for a loop is `while (condition)`, where the condition can be **any statement with a truth value**. This means that the condition works exactly like conditions in an `if` statements.
 
@@ -126,7 +126,7 @@ while (number >= 1) {
 {: .exercises }
 
 
-### 4.1.2 Infinite loops
+#### 4.1.2 Infinite loops
 
 One of the classic errors in programming is to accidentally create an infinite loop. In the next example we try to print "Never again shall I program an eternal loop!" 10 times:
 
@@ -140,7 +140,7 @@ while (i < 10) {
 
 The variable `i`, which determines is supposed to index the loops, is initially set to 0. The block is looped as long as the condition `i < 10` is true. But something funny happens. Because the value of the variable `i` is never changed, the condition stays true forever.
 
-### 4.1.3 Ending a while loop
+#### 4.1.3 Ending a while loop
 
 So far, we have used the while loop with a structure similar to this:
 
