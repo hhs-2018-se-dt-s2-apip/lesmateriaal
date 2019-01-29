@@ -40,3 +40,5 @@ length %= 3;    // same as length = length % 3;
 
 // the variable length now holds the value 1
 ```
+
+ This abbreviated notation is often used in loops (see 4.1.5 in week 2).

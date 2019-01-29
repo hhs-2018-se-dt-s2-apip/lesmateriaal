@@ -11,7 +11,7 @@ String animal = "Dog";
 if( animal.equals("Dog") ) {
     System.out.println(animal + " says bow-wow");
 } else if ( animal.equals("Cat") ) {
-    System.out.println(cat + " says meow meow");
+    System.out.println(animal + " says meow meow");
 }
 ```
 

@@ -87,7 +87,7 @@ for (String name : names) {
 
 **Notice**: when using a for-each-type of loop you cannot set values to the cells of the array! With the format of the for-sentence we inspect next that can be done too.
 
-#### 6.2.1 For and array length
+#### 6.2.1 For-loop and array length
 
 Going through all cells of an array with for happens like this:
 
@@ -209,4 +209,5 @@ public static void main(String[] args){
 ```
 
 {% include week06/exercise/005.md %}
+{% include week04/exercise/099.md %}
 {: .exercises }

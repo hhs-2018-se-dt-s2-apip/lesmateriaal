@@ -283,8 +283,9 @@ The program now includes two lists, *programmingLanguages* and *countries*. Firs
 
 {% include week03/exercise/019.md %}
 {% include week03/exercise/020.md %}
->As we notice from the example above, an ArrayList can be printed as it is. The print formatting is not usually what is sought after, so we are forced to handle the printing ourself. For example, with the help of the `for` command.
 {: .exercises }
+
+As we notice from the example above, an ArrayList can be printed as it is. The print formatting is not usually what is sought after, so we are forced to handle the printing ourself. For example, with the help of the `for` command.
 
 #### 6.7.5 Numbers in an ArrayList
 ArrayLists can be used to store any type of values. If the stored variables are of integer type, there are a couple of details to remember. An integer ArrayList is defined like this: `ArrayList<Integer>`, instead of writing `int` you must write `Integer`.

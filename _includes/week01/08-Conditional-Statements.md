@@ -134,6 +134,10 @@ The number is three!
 
 Let us read out loud the example above: If number is one, print out "The number is one.". Otherwise if the number is two, print out "The number is two.". Otherwise if the number is three, print out "The number is three!". Otherwise print out "Quite a lot!".
 
+{% include week01/exercise/017.md %}
+{% include week01/exercise/018.md %}
+{: .exercises }
+
 ### 3.4 Comparing strings
 
 Strings cannot be compared using the equality operator (==). For string comparison, we use the `equals`. command, which is always associated with the string to compare.
@@ -162,10 +166,6 @@ if (text.equals(anotherText)) {
 ```
 
 When comparing strings, it is crucial to make sure that both string variables have been assigned some value. If a value has not been assigned, the program execution terminates with a *NullPointerException* error, which means that variable has no value assigned to it (null).
-
-{% include week01/exercise/017.md %}
-{% include week01/exercise/018.md %}
-{: .exercises }
 
 ### 3.5 Logical operations
 

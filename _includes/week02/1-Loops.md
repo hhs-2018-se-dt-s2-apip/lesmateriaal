@@ -5,6 +5,7 @@ Conditional statements allow us to execute different commands based on the condi
 
 In addition to conditions we also need repetitions. We may, for example, need to keep asking the user to input a username and password until a valid pair is entered.
 
+### 4.1 While loops
 The most simple repetition is an infinite loop. The following code will print out the string *I can program!* forever or "an infinite number of times":
 
 ```java
@@ -84,10 +85,10 @@ System.out.println("Thanks, bye!");
 
 {% include week02/exercise/001.md %}
 {% include week02/exercise/002.md %}
+{% include week01/exercise/022.md %}
+{% include week02/exercise/004.md %}
 {% include week02/exercise/003.md %}
 {: .exercises }
-
-### 4.1 While loops
 
 #### 4.1.1 While conditions
 
