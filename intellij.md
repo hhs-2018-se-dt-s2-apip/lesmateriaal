@@ -1,3 +1,7 @@
+---
+layout: default
+title: IntelliJ Setup
+---
 ## IntelliJ
 
 ### JDK
