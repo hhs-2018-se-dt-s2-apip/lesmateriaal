@@ -20,7 +20,7 @@ Create an account on the [TMC](https://tmc.mooc.fi) website. In the *Organizatio
 
 
 After installing IntelliJ and starting it, the first thing should do is setup the TestMyCode plugin. In the startup screen, click on the configure button, and click plugins. On the screen that pops up, search for TMC, then click on the button to search online repositories. Select the TMC plugin, install it and restart IntelliJ. After installing, a new option should appear, **Get started with TMC**. Click it to fill in your information and select the right course
-![startup](images/intellij_startup.png)
+![startup](images/intellij_startup_hhs.png)
 
 ### Starting up
 
@@ -33,7 +33,7 @@ The first time in this window, the JDK needs to be setup. This is done with the 
 ### TMC in IntelliJ
 
 After installing, you will be presented with the TMC login. Login with your  login information. Then select the right organization (Haagse Hogeschool), and pick the subject. Make sure this is set up in the settings properly
-![tmc](images/intellij_tmc.png)
+![tmc](images/intellij_tmc_hhs.png)
 
 After you're logged in you can download the TMC exercises through the TMC menu, by clicking "Download current course's ALL exercises". After downloading, open the TMC exercise list, doubleclick an exercise and you're ready to go. You can find the sourcecode to work on in the project's "src" folder.
 
@@ -42,9 +42,9 @@ After you're logged in you can download the TMC exercises through the TMC menu, 
 To test code using the TMC tests, java has to be added to the system path, so 'javac' can be found. If this is not in the path, you will have to add this manually. In order to add this manually, follow the following steps (windows 10)
 
 - Press the windows key, and type `Edit environment variables for your account`. A popup should appear to edit the environment variables
-  ![environment](images/intellij_environment.png)
+  ![environment](images/intellij_environment_hhs.png)
 - In this window, in the User variables section, doubleclick the path item (or add a new one if it's not there), and a new window will pop up to edit the path variable  
-  ![path](images/intellij_path.png)
+  ![path](images/intellij_path_hhs.png)
 - Add the path to your java JDK's bin directory. This would be `C:\Program Files\Java\jdk1.8.0_172\bin` for a default java installation, at the time of writing. Please note the version number you're using
 - Press Ok, and restart IntelliJ
 
