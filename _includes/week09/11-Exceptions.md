@@ -1,4 +1,6 @@
-## 11. Exceptions
+## UNDER CONSTRUCTION
+## 7. Input/output and exception handling
+### 7.1 Exceptions
 
 Exceptions are such situations where the program executions is different from our expectations. For instance, the program may have called a method of a *null*  reference, in which case the user is thrown a `NullPointerException`. If we try to retrieve a index outside a table, the user is *thrown* a `IndexOutOfBoundsException`. All of them are a type of `Exception`.
 
@@ -104,7 +106,7 @@ You haven't written a proper number.
 Write a number: ~~43~~
 ```
 
-### 11.1 Throwing Exceptions
+#### 7.1.1 Throwing Exceptions
 
 Methods and constructors can *throw* exceptions. So far, there are two kinds of exceptions which can be thrown. There are the ones which have to be handled, and the ones which don't have to be dealt with. When we have to handle the exceptions, we do it either in a `try-catch` chunk, or *throwing them from* a `method`.
 
@@ -195,41 +197,8 @@ Exception in thread "..." java.lang.IllegalArgumentException: The grade has to b
 {% include week09/exercise/002.md %}
 {: .exercises }
 
-### 11.2 Exceptions and Interfaces
 
-Interfaces do not have a method body, but the method definition can be freely chosen when the developer implements the interface. Interfaces can also define the exceptions throw. For instance, the classes which implement the following `FileServer` can *possibly* throw an exception in their methods `download` and `save`.
-
-```java
-public interface FileServer {
-    String download(String file) throws Exception;
-    void save(String file, String string) throws Exception;
-}
-```
-
-If an interface defines the `throws Exception` attributes for the methods -- i.e. the methods may throw an exception -- the classes which implement the interface must be defined in the same way. However, they do not have to throw an exception, as it becomes clear in the following example.
-
-```java
-public class TextServer implements FileServer {
-
-    private Map<String, String> data;
-
-    public TextServer() {
-        this.data = new HashMap<String, String>();
-    }
-
-    @Override
-    public String download(String file) throws Exception {
-        return this.data.get(file);
-    }
-
-    @Override
-    public void save(String file, String string) throws Exception {
-        this.data.put(file, stirng);
-    }
-}
-```
-
-### 11.3 The Exception Information
+#### 7.1.2 The Exception Information
 
 The `catch` block tells how we handle an exception, and it tells us what exception we should be prepared for: `catch (Exception e)`. The exception information is saved into the `e` variable.
 
