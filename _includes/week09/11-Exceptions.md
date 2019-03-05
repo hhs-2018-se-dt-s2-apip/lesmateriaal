@@ -3,7 +3,9 @@
 
 Exceptions are such situations where the program executions is different from our expectations. For instance, the program may have called a method of a *null*  reference, in which case the user is thrown a `NullPointerException`. If we try to retrieve a index outside a table, the user is *thrown* a `IndexOutOfBoundsException`. All of them are a type of `Exception`.
 
-We deal with exception using the block `try { } catch (Exception e) { }`. The code contained within the brackets which follows the keyword try can possibly go through an exception. The keyword the code within the brackets which follow the keyword `catch` defines what should happen when the try-code throws an exception. We also define the type of the exception we want to catch (`catch (Exception e)`).
+Exceptions are often caused by unexpected situations that occur when handling input and output of a program. For example: users can easily frustrate a program by entering input in an unexpected format.
+
+We deal with exception using the block `try { } catch (Exception e) { }`. The code contained within the brackets which follows the keyword try can possibly go through an exception. The code within the brackets which follow the keyword `catch` defines what should happen when the try-code throws an exception. We also define the type of the exception we want to catch (`catch (Exception e)`).
 
 ```java
 try {
@@ -13,7 +15,7 @@ try {
 }
 ```
 
-The [parseInt](http://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#parseInt(java.lang.String)) method of class `Integer` which turns a string into a number can throw a `NumberFormatException` if its string parameter cannot be turned into a number. Now we implement a program which tries to turn into a number a user input string.
+The [parseInt](http://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#parseInt(java.lang.String)) method of class `Integer` which turns a string into a number can throw a `NumberFormatException` if its string parameter cannot be turned into a number. Now we implement a program that turns a user input String to a number.
 
 ```java
 Scanner reader = new Scanner(System.in);
@@ -144,7 +146,7 @@ There are some exceptions which the programmer does not always have to address, 
 
 We can throw an exception ourself from the source code using the `throw` statement. For instance, if we want to throw an exception which was created in the class `NumberFormatException`, we could use the statement `throw new NumberFormatException()`.
 
-Another exception which hasn't got to be addressed is `IllegalArgumentException`. With `IllegalArgumentException` we know that a method or a constructor has received an *illegal* value as parameter. For instance, we use the `IllegalArgumentException` when we want to make sure that a parameter has received particular values. We create the class `Grade` whose constructor has a integer parameter: the grade.
+Another exception which hasn't got to be addressed is `IllegalArgumentException`. With `IllegalArgumentException` we know that a method or a constructor has received an *illegal* value as parameter. For instance, we use the `IllegalArgumentException` when we want to make sure that a parameter has received particular values.
 
 ```java
 public class Grade {
