@@ -1,4 +1,3 @@
-## UNDER CONSTRUCTION
 ## 7. Input/output and exception handling
 ### 7.1 Exceptions
 
