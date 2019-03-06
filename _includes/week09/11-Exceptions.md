@@ -5,7 +5,7 @@ Exceptions are such situations where the program executions is different from ou
 
 Exceptions are often caused by unexpected situations that occur when handling input and output of a program. For example: users can easily frustrate a program by entering input in an unexpected format.
 
-We deal with exception using the block `try { } catch (Exception e) { }`. The code contained within the brackets which follows the keyword try can possibly go through an exception. The code within the brackets which follow the keyword `catch` defines what should happen when the try-code throws an exception. We also define the type of the exception we want to catch (`catch (Exception e)`).
+We deal with exceptions by using the block `try { } catch (Exception e) { }`. The code contained within the brackets which follows the keyword `try` will not crash when an exception occurs in this part of the code. The code within the brackets which follow the keyword `catch` defines what should happen when the try-code throws an exception. We also define the type of the exception we want to catch (`catch (Exception e)`).
 
 ```java
 try {
@@ -111,7 +111,7 @@ Write a number: ~~43~~
 
 Methods and constructors can *throw* exceptions. So far, there are two kinds of exceptions which can be thrown. There are the ones which have to be handled, and the ones which don't have to be dealt with. When we have to handle the exceptions, we do it either in a `try-catch` chunk, or *throwing them from* a `method`.
 
-In the clock exercise of Introduction to Programming, we explained that we can stop our program of one second, by calling the method `Thread.sleep(1000)`. The method may throw an exception, which we must deal with. In fact, we handle the exception using the `try-catch` sentence; in the following example we skip the exception, and we leave empty the `catch` chunk.
+In the clock exercise of Introduction to Programming (not in the HHS-course), we explained that we can stop our program of one second, by calling the method `Thread.sleep(1000)`. The method may throw an exception, which we must deal with. In fact, we handle the exception using the `try-catch` sentence; in the following example we skip the exception, and we leave empty the `catch` chunk.
 
 ```java
 try {
@@ -130,7 +130,7 @@ public void sleep(int sec) throws Exception {
 }
 ```
 
-The `sleep` method is called in another method. Now, this other method can either handle the exception in a `try-catch` block or delegate the responsibility forward. Sometimes, we delegate the responsibility of handling an exception, till the very end, and even the `main` method delegates it:
+The `sleep` method is called in another method. Now, this other method can either handle the exception in a `try-catch` block or delegate the responsibility forward. Sometimes, we delegate the responsibility of handling an exception till the very end, and even the `main` method delegates it:
 
 ```java
 public class Main {
@@ -142,11 +142,13 @@ public class Main {
 
 In such cases, the exception ends up in Java's virtual machine, which interrupts the program in case there is an error which causes the problem.
 
-There are some exceptions which the programmer does not always have to address, such as the `NumberFormatException` which is thrown by `Integer.parseInt`. Also the `RuntimeExceptions` do not always require to be addressed; next week we will go back to why variables can have more than one type.
+There are some exceptions which the programmer does not always have to address, such as the `NumberFormatException` which is thrown by `Integer.parseInt`. Also the `RuntimeExceptions` do not always require to be addressed. These are two examples of exceptions that don’t have to be dealt with. The compiler cannot 'predict' that an exception will occur, so it does not force you to catch the exception.
 
 We can throw an exception ourself from the source code using the `throw` statement. For instance, if we want to throw an exception which was created in the class `NumberFormatException`, we could use the statement `throw new NumberFormatException()`.
 
 Another exception which hasn't got to be addressed is `IllegalArgumentException`. With `IllegalArgumentException` we know that a method or a constructor has received an *illegal* value as parameter. For instance, we use the `IllegalArgumentException` when we want to make sure that a parameter has received particular values.
+
+In the example below we have the constructor public Grade(int grade). A constructor is a special method that will be explained later on when we introduce classes. For now you can consider it as a 'regular' method that expects parameters like any other method.
 
 ```java
 public class Grade {

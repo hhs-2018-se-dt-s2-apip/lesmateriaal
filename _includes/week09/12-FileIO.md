@@ -1,9 +1,9 @@
-### 7.2 Reading a File
+### 7.2 Reading from a file
 A relevant part of programming is related to stored files, in one way or in another. Let's take the first steps in Java file handling. Java's API provides the class [File](http://docs.oracle.com/javase/8/docs/api/java/io/File.html), whose contents can be read using the already known [Scanner](http://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) class.
 
 If we read the desciption of the `File` [API](http://docs.oracle.com/javase/8/docs/api/java/io/File.html) we notice the `File` class has the constructor `File(String pathname)`, which *creates a new File instance by converting the given pathname string into an abstract pathname*. This means the `File` class constructor can be given the pathname of the file we want to open.
 
-*In the NetBeans programming environment, files have got their own tab called Files, which contains all our project files. If we add a file to a project root -- that is to say outside all folders -- we can refer to it by writing only the its name. We create a file object by fiving the file pathname to it as parameter:*
+*In the programming environment, files have got their own tab called Files, which contains all our project files. If we add a file to a project root -- that is to say outside all folders -- we can refer to it by writing only the its name. We create a file object by giving the file pathname to it as parameter:*
 
 ```java
 File file = new File("file-name.txt");
