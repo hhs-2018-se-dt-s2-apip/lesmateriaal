@@ -139,7 +139,6 @@ Anther thing you can do to set up a character set is using an environment variab
 
 {% include week09/exercise/003.md %}
 {% include week09/exercise/004.md %}
-{% include week09/exercise/005.md %}
 {: .exercises }
 
 
