@@ -196,10 +196,6 @@ Grade wrongGrade = new Grade(22);
 Exception in thread "..." java.lang.IllegalArgumentException: The grade has to be between 0-5
 ```
 
-{% include week09/exercise/001.md %}
-{: .exercises }
-
-
 #### 7.1.2 The Exception Information
 
 The `catch` block tells how we handle an exception, and it tells us what exception we should be prepared for: `catch (Exception e)`. The exception information is saved into the `e` variable.
@@ -221,3 +217,7 @@ Exception in thread "main" java.lang.NullPointerException
 ```
 
 Reading the stack trace happens button up. The lowest is the first call, i.e. the program execution has started from the `main()` method of class `Class`. At line 29 of the main method of `Class`, we called the method `print()`. Line 43 of the method `print` caused a `NullPointerException`. Exception information are extremely important to find out the origin of a problem.
+
+{% include week09/exercise/001.md %}
+{: .exercises }
+
