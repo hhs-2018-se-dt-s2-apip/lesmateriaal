@@ -9,7 +9,7 @@ If we read the desciption of the `File` [API](http://docs.oracle.com/javase/8/do
 File file = new File("file-name.txt");
 ```
 
-`System.in` input stream is not the only reading source we can give to the constructor of a `Scanner` class. For instance, the reading source can be a file, in addition to the user keyboard. `Scanner` provides the same methods to read a keyboard input and a file. In the following example, we open a file and we print all the text contained in the file using the `System.out.println` statement. At the end, we close the file using the statement `close`.
+The `System.in` input stream is not the only reading source we can give to the constructor of a `Scanner` class. For instance, the reading source can be a file, in addition to the user keyboard. `Scanner` provides the same methods to read a keyboard input and a file. In the following example, we open a file and we print all the text contained in the file using the `System.out.println` statement. At the end, we close the file using the statement `close`.
 
 ```java
 // The file we read
@@ -202,5 +202,4 @@ public class FileHandler {
 In most of the cases, instead of writing text at the end of a file with the method `append`, it is easier to write all the file again.
 
 {% include week09/exercise/006.md %}
-{% include week09/exercise/007.md %}
 {: .exercises }

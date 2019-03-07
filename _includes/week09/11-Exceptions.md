@@ -144,7 +144,7 @@ In such cases, the exception ends up in Java's virtual machine, which interrupts
 
 There are some exceptions which the programmer does not always have to address, such as the `NumberFormatException` which is thrown by `Integer.parseInt`. Also the `RuntimeExceptions` do not always require to be addressed. These are two examples of exceptions that don’t have to be dealt with. The compiler cannot 'predict' that an exception will occur, so it does not force you to catch the exception.
 
-We can throw an exception ourself from the source code using the `throw` statement. For instance, if we want to throw an exception which was created in the class `NumberFormatException`, we could use the statement `throw new NumberFormatException()`.
+We can throw an exception by using the `throw` statement. For instance, if we want to throw an exception which was created in the class `NumberFormatException`, we could use the statement `throw new NumberFormatException()`.
 
 Another exception which hasn't got to be addressed is `IllegalArgumentException`. With `IllegalArgumentException` we know that a method or a constructor has received an *illegal* value as parameter. For instance, we use the `IllegalArgumentException` when we want to make sure that a parameter has received particular values.
 
@@ -197,7 +197,6 @@ Exception in thread "..." java.lang.IllegalArgumentException: The grade has to b
 ```
 
 {% include week09/exercise/001.md %}
-{% include week09/exercise/002.md %}
 {: .exercises }
 
 
